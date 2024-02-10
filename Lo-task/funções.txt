@@ -1,0 +1,11 @@
+
+function adicionarTarefa() {
+    if (qtdtask < 6) {
+        let lista = document.getElementsByClassName("list")[0];
+        let item = document.createElement("li");
+        item.innerHTML = "Tarefa " + (++cont);
+        lista.appendChild(item);
+    } else {
+        window.alert("Pra não ficar feio, só acumula 6 tarefas.")
+    }
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Lista de Tarefas">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="J. Júnior">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lo-task</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap" rel="stylesheet">
+</head>
+<body>
+    <audio class="audio" controls autoplay>
+        <source src="assets/snd/lofi.wav" type="audio/wav">
+    </audio>
+    <div class="compose">
+        <img src="assets/62bb2e342cd71461f39747e5_thumbnail.jpeg" alt="Lo-fi table" class="bgimg">
+            <div class="mainbox">
+                <img class="img" src="assets/tumblr_mv3557k44K1resllwo1_500.gif"></img:>
+                    <div class="boxhead">
+                        <h1>Lo-task</h1>
+                        <h4>ロータスク</h4>
+                        <h3>The lo-fi task list</h3>
+                    </div>
+                    <ul name="Tasklist" class="list">
+                    </ul>
+                <button title="Adicionar tarefa" type="button" class="button" onclick="adicionarTarefa()">Adicionar tarefa</button>
+            </div>
+        <span id="katadec">ロータスク</spans>
+    </div>
+        <div class="taskbox">
+            <h1>Adicionar tarefa</h1>
+            <label for="task">Tarefa</label>
+            <form action="">
+                <input type="text" name="task" id="taskinput">
+                <br>
+                <span id="prio">Prioridade</span><br>  
+                <input type="radio" id="lowprio" name="prio" value="lowprio" checked>
+                <label for="lowprio">Baixa</label>
+                <input type="radio" id="midprio" name="prio" value="midprio" checked>
+                <label for="lowprio">Média</label>
+                <input type="radio" id="highprio" name="prio" value="highprio" checked>
+                <label for="lowprio">Alta</label>
+                <span id="plusym" onclick="taskAdd()">+</span>
+            </form>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
