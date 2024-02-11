@@ -1,5 +1,5 @@
 # Sobre
-Repositório criado pra compartilhar alguns estudos que fiz e tenho feito com foco em HTML, CSS e JavaScript.
+Repositório criado pra compartilhar alguns estudos baseados em projetos que fiz e tenho feito com foco em HTML, CSS e JavaScript.
 
 ***
 
@@ -13,5 +13,10 @@ Repositório criado pra compartilhar alguns estudos que fiz e tenho feito com fo
 </p>
 
 11/fev/23 - Primeiro *projeto*. Feito em poucas horas, é uma lista que registra tarefas com grau de importância e o horário em que são adicionadas. Não tem nada complexo e **só é estéticamente aceitável em navegadores desktop**, pois não tem nenhum *media querie*. Foi proveitoso apenas pra fixar alguns conceitos, tags e propriedades simples na cabeça.
+
+#### Para o próximo projeto, acho interessante cumprir:
+- layout pré-definido (seja cópia de algo que já existe ou feito no papel)
+- fidelidade às cores escolhidas
+- *mobile-first*, pra usar media queries.
 
 ***
