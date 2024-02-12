@@ -1,5 +1,19 @@
 @charset "UTF-8";
 
 @media print {
-    
+
+}
+
+@media screen and (min-width: 770px) {
+    .main {
+        flex-direction: row;
+        align-items: baseline;
+        justify-items: space-between;
+        gap: 10%;
+    }
+
+    .contentcontainer {
+        overflow: hidden;
+        flex-wrap: wrap;
+    }
 }
