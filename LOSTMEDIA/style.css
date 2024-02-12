@@ -59,7 +59,7 @@ body {
 }
 
 .main {
-    margin: 0% 10%;
+    margin: 10px 10%;
     display: flex;
     flex-direction: column;
     text-align: right;
@@ -79,6 +79,12 @@ body {
 .main .p {
     display: block;
     transition: 1s;
+}
+
+.main div p cite {
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    font-size: 70%;
 }
 
 .main p:hover #ms1 {
@@ -113,8 +119,9 @@ body {
     position: relative;
     width: 100%;
     max-width: 400px;
-    padding: 10px;
+    padding: 15px;
     margin: 10px;
+    line-height: 15px;
 }
 
 .contentcontainer div {
@@ -146,7 +153,7 @@ body {
     background: radial-gradient(transparent 0%, Black);
     font-family: "Archivo Black", sans-serif;
     text-transform: uppercase;
-    padding: 0px 10px;
+    padding: 10px 10px;
 }
 
 .contentcontainer p small {
@@ -174,4 +181,72 @@ body {
     margin: auto;
     width: 80%;
 }
+
+/* extra */
+
+#submitdrop {
+    margin: 18px 20% 0%;
+    padding: 0;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: white underline 2px;
+    text-underline-offset: 4px;
+}
+
+#submitdrop::after {
+    content: " +";
+}
+
+#mediasubmit {
+    visibility: hidden;
+    opacity: 0%;
+    text-align: left;
+}
+
+#mediasubmit.translate {
+    transition: 0.5s;    
+    opacity: 100%;
+    padding-top: 10px;
+    visibility: visible;
+}
+
+#mediasubmit input {
+    margin: 10px 0px;
+    color: black;
+}
+
+#mediasubmit input[type="text"] {
+    box-sizing: border-box;
+    padding: 0 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#mediasubmit textarea {
+    box-sizing: border-box;
+    margin: 10px 0px;
+    padding: 10px 10px;
+    color: black;
+    min-height: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#mediasubmit button {
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    text-decoration: underline white;
+    text-underline-offset: 5px;
+    cursor: pointer;
+}
+
+#mediasubmit button:hover {
+    transition: 1s;
+    color: var(--verde);
+}
+
+#mediasubmit button:active {
+    border: none;
+}
+
 

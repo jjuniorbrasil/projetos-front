@@ -31,9 +31,19 @@
             </nav>
         </header>
         <main class="main">
-            <div>
+            <div id="head">
                 <h1>LOST MEDIA</h1>
-                <p>"...An <span id="ms1">attempt to track</span> down pieces of lost or hard-to-find media; whether it be video, audio or otherwise, if it's <span id="ms2">completely lost</span> or simply inaccessible to the general public."</p>
+                <p>"...An <span id="ms1">attempt to track</span> down pieces of lost or hard-to-find media; whether it be video, audio or otherwise, if it's <span id="ms2">completely lost</span> or simply inaccessible to the general public." <cite>(from lostmediawiki.com)</cite></p>
+                <h2 id="submitdrop" onclick="getSubmitData()">Submit your media</h2>
+                <form id="mediasubmit">
+                    <label for="username">Your name</label>
+                    <input placeholder="Good movie, almost cried" required type="text" name="mediasubmit" id="username"><br>
+                    <label for="mediatitle">Media title</label>
+                    <input placeholder="I'll look after it" type="text" name="mediasubmit" id="mediatitle"><br><br>
+                    <label for="mediareason">Why should it be here?</label><br>
+                    <textarea placeholder="You don't need to convince me, just tell me why you like it" style="width: 100%; resize: none;" name="mediasubmit" id="mediareason"></textarea>
+                    <button type="button" name="mediasubmit" id="submitbutton">Submit!</button>
+                </form>
             </div>
             <div class="contentcontainer">
                 <div>
