@@ -5,6 +5,8 @@ Repositório criado pra compartilhar alguns estudos baseados em projetos que fiz
 
 # Projetos de estudo
 
+### 11/fev/24
+
 <p align=center>
   <a href="https://jjuniorbrasil.github.io/projetinhos-front/Lo-task/">
     <img src="Lo-task/assets/Screenshot_1.png" alt="Lo-task thumb"><br>
@@ -12,11 +14,21 @@ Repositório criado pra compartilhar alguns estudos baseados em projetos que fiz
   </a>
 </p>
 
-11/fev/23 - Primeiro *projeto*. Feito em poucas horas, é uma lista que registra tarefas com grau de importância e o horário em que são adicionadas. Não tem nada complexo e **só é estéticamente aceitável em navegadores desktop**, pois não tem nenhum *media querie*. Foi proveitoso apenas pra fixar alguns conceitos, tags e propriedades simples na cabeça.
+Primeiro *projeto*. Feito em poucas horas, é uma lista que registra tarefas com grau de importância e o horário em que são adicionadas. Não tem nada complexo e **só é estéticamente aceitável em navegadores desktop**, pois não tem nenhum *media querie*. Foi proveitoso apenas pra fixar alguns conceitos, tags e propriedades simples na cabeça.
 
-#### Para o próximo projeto, acho interessante cumprir:
-- layout pré-definido (seja cópia de algo que já existe ou feito no papel)
-- fidelidade às cores escolhidas
-- *mobile-first*, pra usar media queries.
+<hr>
+
+### 12/fev/24
+
+<p align=center>
+  <a href="https://jjuniorbrasil.github.io/projetinhos-front/LOSTMEDIA/">
+    <img src="LOSTMEDIA/thumb.png" alt="Lost Media thumb"><br>
+    LOST MEDIA
+  </a>
+</p>
+
+Sempre me interessei por conteúdo *velho* e tenho um apreço pela mídia digital que se perde com o tempo. 'LOSTMEDIA' é um projeto feito para assimilar conceitos de design, flexbox e media queries.
+
+12/fev/24 - Landing page mobile criada
 
 ***
