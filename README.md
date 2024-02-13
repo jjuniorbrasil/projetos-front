@@ -35,5 +35,6 @@ Sempre me interessei por conteúdo *velho* e tenho um apreço pela mídia digita
 #### Para o próximo projeto, penso em:
 - melhorar manipulação do *DOM*.
 - linkar diferentes páginas com mesma style-sheet.
+- usar a ideia de algum colega que nunca programou (perigoso) a fim de evitar possíveis mesmas ideias de layout e design.
 
 ***
