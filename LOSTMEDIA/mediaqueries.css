@@ -12,8 +12,31 @@
         gap: 10%;
     }
 
+    #headgradient {
+        position: relative;
+        background: linear-gradient(45deg, var(--verde) -20%, rgba(255, 0, 221, 0.158) 40%, transparent 60%, var(--pinkquente) 180%);
+        padding-bottom: 10px;
+        padding-right: 50px;
+        padding-left: 10px;
+        filter: grayscale(70%);
+    }
+
     .contentcontainer {
         overflow: hidden;
         flex-wrap: wrap;
+    }
+
+    #visualbox {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-left: -15px;
+        padding: 18.5% 55%;
+        background: linear-gradient(45deg, var(--verde) -20%, rgba(255, 0, 221, 0.158) 40%, transparent 60%, var(--pinkquente) 180%);
+        z-index: -3;
+    }
+
+    #mediasubmit input[type="text"] {
+        width: 50%;
     }
 }
