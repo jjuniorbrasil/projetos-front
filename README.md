@@ -8,7 +8,7 @@ Repositório criado pra compartilhar alguns estudos baseados em projetos que fiz
 ### 11/fev/24
 
 <p align=center>
-  <a href="https://jjuniorbrasil.github.io/projetinhos-front/Lo-task/">
+  <a href="https://jjuniorbrasil.github.io/projetos-front/Lo-task/">
     <img src="Lo-task/assets/Screenshot_1.png" alt="Lo-task thumb"><br>
     Lo-Task
   </a>
@@ -21,7 +21,7 @@ Primeiro *projeto*. Feito em poucas horas, é uma lista que registra tarefas com
 ### 12/fev/24
 
 <p align=center>
-  <a href="https://jjuniorbrasil.github.io/projetinhos-front/LOSTMEDIA/">
+  <a href="https://jjuniorbrasil.github.io/projetos-front/LOSTMEDIA/">
     <img src="LOSTMEDIA/thumb.png" alt="Lost Media thumb"><br>
     LOST MEDIA
   </a>
