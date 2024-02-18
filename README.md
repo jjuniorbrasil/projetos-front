@@ -5,7 +5,9 @@ Repositório criado pra compartilhar alguns estudos baseados em projetos que fiz
 
 # Projetos de estudo
 
-### 11/fev/24
+<h1 align=center>fev/24</h1>
+
+### dia 11
 
 <p align=center>
   <a href="https://jjuniorbrasil.github.io/projetos-front/Lo-task/">
@@ -18,7 +20,7 @@ Primeiro *projeto*. Feito em poucas horas, é uma lista que registra tarefas com
 
 <hr>
 
-### 12/fev/24
+### dia 12
 
 <p align=center>
   <a href="https://jjuniorbrasil.github.io/projetos-front/LOSTMEDIA/">
@@ -29,7 +31,7 @@ Primeiro *projeto*. Feito em poucas horas, é uma lista que registra tarefas com
 
 Sempre me interessei por conteúdo *velho* e tenho um apreço pela mídia digital que se perde com o tempo. 'LOSTMEDIA' é um projeto feito para assimilar conceitos de design, flexbox e media queries ao mesmo tempo que satisfaz (parcialmente) à minha vontade de um acervo digital próprio. Fiquei satisfeito com a extração dos conceitos que me inspirei e acho que conversam bem entre si.
 
-12/fev/24 - Landing page mobile criada
+12/fev/24 - Landing page mobile criada <br>
 13/fev/24 - Viabilidade para desktops, novos elementos visuais, transições e formulário simples.
 
 #### Para o próximo projeto, penso em:
